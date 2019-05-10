@@ -14,10 +14,10 @@ B=input("Base del triángulo: ")
 if esdecimal(B):
     b = float(B)
     H=input("Altura del triángulo: ")
-    
+
     if esdecimal(H):
         h = float(H)
-        
+
         area = b * h / 2
 
         print("Superficie del triángulo:", round(area, 2))
