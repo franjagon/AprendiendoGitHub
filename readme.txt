@@ -1,0 +1,1 @@
+Este es el fichero readme.txt de mi primer repositorio Git.
