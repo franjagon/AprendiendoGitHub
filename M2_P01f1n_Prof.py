@@ -1,12 +1,12 @@
-def sumaTodos(limite):
+def sumaTodos(lim):
     resultado = 0
-    for i in range(0, limite + 1):
+    for i in range(0, lim + 1):
         resultado += i
     return resultado
 
-def sumaCuadrados(limite):
+def sumaCuadrados(lim):
     resultado = 0
-    for i in range(0, limite + 1):
+    for i in range(0, lim + 1):
         resultado += i**2
     return resultado
 
