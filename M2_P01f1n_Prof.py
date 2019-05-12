@@ -7,7 +7,7 @@ def sumaTodos(lim):
 def sumaCuadrados(lim):
     resultado = 0
     for i in range(0, lim + 1):
-        resultado += i**2
+        resultado += i ** 2
     return resultado
 
 '''Las funciones se pueden clonar en variables.'''
