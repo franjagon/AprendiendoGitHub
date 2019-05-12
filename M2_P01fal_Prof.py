@@ -7,5 +7,5 @@ print(sumaTodos(3, lambda x : x ** 3))
 
 x = 3
 y = 2
-z = lambda x, y : x * y
-print("{} x {} = {}".format(x, y, z))
+
+print("{} x {} = {}".format(x, y, lambda x, y : x * y))
